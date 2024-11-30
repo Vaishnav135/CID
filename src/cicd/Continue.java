@@ -12,6 +12,7 @@ public class Continue {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "D:\\javafiles\\chromedriver\\chromedriver3.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		
